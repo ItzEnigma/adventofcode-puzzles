@@ -1,0 +1,15 @@
+ex_*
+.git/
+.vscode/
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.log
+*.tmp
+*.class
+*.pyc
+__pycache__/
+.DS_Store
+.pytest_cache/
