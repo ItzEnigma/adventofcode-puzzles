@@ -1,0 +1,23 @@
+1. Data Compression / Encoding
+    - Forms the basis of run-length encoding (RLE)
+    - Useful for compressing repeated sequences in text, images, or sensor data
+
+2. Pattern Recognition
+    - Detects repetitions in sequences
+    - Applicable in DNA/RNA motif analysis and bioinformatics
+
+3. Algorithmic Education
+    - Teaches recursion, loops, and self-describing sequences
+    - Useful for coding exercises and algorithm practice
+
+4. Testing Compression Algorithms
+    - Generates structured, repetitive sequences to benchmark compression
+
+5. Digital Signal Processing (DSP)
+    - Helps encode runs of repeated signals efficiently
+    - Optimizes storage for repetitive sensor or signal data
+    EX: [1,1,1,0,0,1,1] ---> 31 20 21 (3 ones, 2 zeros, 2 ones)
+
+6. Novelty & Cryptography
+    - Generates pseudo-random-looking sequences
+    - Can be used in puzzles, games, or simple obfuscation
