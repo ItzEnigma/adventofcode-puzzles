@@ -1,0 +1,23 @@
+@startuml IngredientOptimizationLogicFlow
+
+title Logic Flow for getHighestScore
+
+start
+:Initialize best score to 0;
+
+repeat
+  :Iterate over all possible combinations 
+  of ingredient amounts //(brute force)//;
+  :Calculate capacity, durability, flavor, texture;
+  if (Any property < 0?) then (yes)
+    :Set property to 0 //(ignore negatives)//;
+  endif
+  :Calculate score as product of properties;
+  :Update best score if current score is higher;
+repeat while (More combinations to check?)
+
+:Return best score;
+
+stop
+
+@enduml
