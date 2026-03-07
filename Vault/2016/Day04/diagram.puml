@@ -1,0 +1,26 @@
+@startuml isRealRoom Logic Flow
+
+start
+
+:Count letter frequencies\n(a-z only);
+
+:Sort by:\n1. Frequency (descending)\n2. Alphabetically (ascending);
+
+:Take top 5 characters\nas calculated checksum;
+
+:Extract provided checksum\nfrom room[...];
+
+if (Checksum valid format?) then (yes)
+  if (Calculated == Provided?) then (yes)
+    :Return **true**;
+    stop
+  else (no)
+    :Return **false**;
+    stop
+  endif
+else (no)
+  :Return **false**;
+  stop
+endif
+
+@enduml
